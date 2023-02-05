@@ -27,7 +27,7 @@ class Pet:
         print(f'Привіт. Я {self.name}, я пішов ')
 
 
-bread_of_dog = {"Акита-ину", "Алабай", "Басенджі", }
+bread_of_dog = {{"Акита-ину"}, {"Алабай"}, {"Басенджі"}}
 
 
 class bread:
@@ -35,7 +35,7 @@ class bread:
         self.bread = random.choice(list(bread_of_dog))
 
 
-name_list = {"Шарік", "Тузик", "Бублік", }
+name_list = {{"Шарік"}, {"Тузик"}, {"Бублік"}}
 
 class name:
     def __init__(self, name_list):
