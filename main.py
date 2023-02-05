@@ -1,6 +1,5 @@
 import random
 
-
 class Pet:
     count_of_pet = 0
     def __init__(self, name=None, weight = 10, cuteness = 10, age = 3, bread = None):
